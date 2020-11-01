@@ -1,8 +1,8 @@
 import psycopg2
 from psycopg2 import pool
 
-connection_pool = pool.SimpleConnectionPool(2,
-                                            2,
+connection_pool = pool.SimpleConnectionPool(1,
+                                            1,
                                             user='postgres',
                                             password="Injustice01",
                                             database="db_test",
