@@ -1,5 +1,5 @@
 
-from database import ConnectionFromPool
+from Scripts.database import ConnectionFromPool
 
 class User:
     def __init__(self, email, FirstName, LastName, id):

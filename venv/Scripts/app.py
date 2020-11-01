@@ -1,4 +1,4 @@
-from users import User
+from Scripts.users import User
 
 my_user = User("Pamela_carloss01@yahoo.com","sPamela","one", None)
 
