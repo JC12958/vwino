@@ -4,7 +4,7 @@ from psycopg2 import pool
 connection_pool = pool.SimpleConnectionPool(2,
                                             2,
                                             user='postgres',
-                                            password="Injustice01",
+                                            password="1234",
                                             database="db_test",
                                             host="localhost")
 
